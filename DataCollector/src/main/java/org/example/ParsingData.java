@@ -21,7 +21,7 @@ public class ParsingData {
         dateFromCSV();
 
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File("src/main/java/Data/export.json"), stationsForWrites);
+        mapper.writeValue(new File("DataCollector/src/main/java/Data/export.json"), stationsForWrites);
     }
 
     public void comparison() {
