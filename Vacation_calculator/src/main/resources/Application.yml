@@ -1,6 +1,0 @@
-server:
-  port: 8085
-
-calendar:
-  dateFormat: "dd.MM.yyyy"
-  workDaysOfYear: 247
